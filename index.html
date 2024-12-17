@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/products.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"rel="stylesheet">
+    <title>Geek Store</title>
+</head>
+<header class="header">
+    <img src="./assets/hearts.png" alt="Image of three red hearts" class="header__title-image">
+    <h1 class="header__title">Geek Store</h1>
+</header>
+
+<body>
+
+    <section class="products">
+
+        <article class="products__container">
+            <h2 class="products__title">My Products</h2>
+           
+            <div class="products__items" data-products>
+                
+            </div>
+        </article>
+
+        <form class="form" action="" data-form>
+            <h2 class="form__title">ADD PRODUCT:</h2>
+            <input type="text" placeholder="Name..." class="form__input" required data-name>
+            <input type="number" placeholder="Price..." class="form__input" required data-price>
+            <input type="text" placeholder="Image URL..." class="form__input" required data-image>
+            <div class="form__buttons">
+                <button id="button-save" type="submit" class="button button-save">Save</button>
+                <button id="button-clear" type="reset" class="button button-clear">Clear</button>
+            </div>
+        </form>
+    </section>
+<footer class="footer">
+    <h3 class="footer__title"><img src="./assets/hearts.png">Geek Store</h3>
+    <div class="footer__container">
+        <p>Developed by: <a href="https://github.com/Matheus-Camelo" ">Matheus Camelo</a></p>
+    </div>
+</footer>
+<script type="module" src="./scripts/main.js"></script>
+</body>
+</html>

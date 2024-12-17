@@ -1,0 +1,32 @@
+.header {
+    align-items: center;
+    background: #5300C8;
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    width: 100%;
+    gap: 0;
+}
+.header__title-image {
+    width: 8.625rem;
+    height: 3.5rem;
+}
+.header__title {
+    width: 15rem;
+    height: 3.19rem;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+@media (max-width: 470px) {
+    .header__title {
+        font-size: 1.125rem;
+    }
+    .header__title-image {
+        width: 40%;
+    }
+}

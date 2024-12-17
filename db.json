@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "name": "aa",
+      "price": "2",
+      "image": "assets\\gameboy.png",
+      "id": 1
+    },
+    {
+      "name": "testando e testando",
+      "price": "50000",
+      "image": "assets\\gameboy.png",
+      "id": 2
+    }
+  ]
+}

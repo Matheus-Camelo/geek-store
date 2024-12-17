@@ -1,0 +1,14 @@
+:root{
+    --primary-font: 'Press Start 2P', sans-serif;
+    --secondary-font: 'font-family: "IBM Plex Mono", monospace;'
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,94 @@
+.form {
+    width: 26.75rem;
+    height: 32.31rem;
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.form__title {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.form__input {
+    width: 20.56rem;
+    height: 3.625rem;
+    border-radius: 30px;
+    border: 3px solid #03318C;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0 13px 0 15px;
+}
+.form__input::placeholder {
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    width: 12.69rem;
+    height: 2.44rem;
+    margin: 0.625rem 0 0.88rem 0;
+    padding: 0 0 0 10px;
+    color: #03318C;
+}
+.form__buttons {
+    width: 20.56rem;
+    height: 3.44rem;
+    margin: 0 65px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.81rem;
+}
+.button {
+    width: 11.75rem;
+    height: 3.44rem;
+    border-radius: 15px;
+    font-family: var(--secondary-font);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    text-align: center;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.button-save {
+    background: #03318C;
+    color: #FFFFFF;
+}
+.button-save:hover {
+    background: #0c4ac7;
+}
+.button-clear {
+    background: #FFFFFF;
+    border: 3px solid #03318C;
+    color: #03318C;
+}
+.button-clear:hover {
+    background: #dfd7d7;
+}
+@media (max-width: 1200px) {
+    .form {
+        width: 30%;
+    }
+    .form__input {
+        width: 90%;
+    }
+    .form__buttons {
+        width: 100%;
+    }
+}
+@media (max-width: 970px) {
+    .form {
+        width: 60%;
+    }
+}
+@media (max-width: 700px) {
+    .form {
+        width: 90%;
+    }
+}
