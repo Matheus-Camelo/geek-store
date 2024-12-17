@@ -1,15 +1,15 @@
 {
   "products": [
     {
-      "name": "aa",
-      "price": "2",
+      "name": "Gameboy",
+      "price": "20,00",
       "image": "assets\\gameboy.png",
       "id": 1
     },
     {
-      "name": "testando e testando",
-      "price": "50000",
-      "image": "assets\\gameboy.png",
+      "name": "Storm Trooper",
+      "price": "500,00",
+      "image": "assets\\stormtrooper.png",
       "id": 2
     }
   ]
